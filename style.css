@@ -30,6 +30,9 @@ header {
     align-items: center;
     color: white;
     font-size: 7vh;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
 }
 
 img {
@@ -42,6 +45,7 @@ img {
     padding: 0.5em;
     padding-top: 4vh;
     font-size: calc(min(0.8em, 8vw));
+    cursor: pointer;
 }
 
 footer {
@@ -62,7 +66,7 @@ footer {
 }
 
 a {
-    text-decoration: underline;
+    text-decoration: none;
     color: white;
     cursor: pointer;
 }
@@ -123,4 +127,8 @@ a.linkbtn {
 
 .item:hover a {
     color: #000000;
+}
+
+.kfet-logo {
+    cursor: pointer;
 }
